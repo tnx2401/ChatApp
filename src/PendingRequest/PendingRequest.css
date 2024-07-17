@@ -1,0 +1,50 @@
+.pending-container {
+  width: 100%;
+}
+
+.pending-button {
+  float: right;
+}
+
+.pending-button button {
+  padding: 5px 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.pending-info-container {
+  padding: 30px;
+  width: 95%;
+}
+
+.pending-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pending-info-button button {
+  padding: 10px;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(17, 1, 1);
+}
+
+.pending-info h2 {
+  color: aqua;
+}
+.pending-info span {
+  color: white;
+}
+
+#accept {
+  background-color: #14f708;
+}
+
+#deny {
+  background-color: rgba(255, 0, 0, 0.851);
+}

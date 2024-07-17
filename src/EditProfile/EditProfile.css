@@ -1,0 +1,128 @@
+.edit-container {
+  width: 60vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(56, 52, 68, 0.66);
+  backdrop-filter: blur(50px);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid hsla(0, 0%, 55%, 0.185);
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.479);
+  align-items: center;
+}
+
+.edit-info-container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  flex: 3;
+  column-gap: 10%;
+}
+
+#title {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#title button {
+  padding: 10px;
+  margin: 5px;
+}
+
+#image {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  display: flex;
+}
+
+#image img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+}
+
+#firstname {
+  width: 45%;
+}
+
+#firstname input {
+  width: 100%;
+}
+
+#lastname {
+  width: 45%;
+}
+
+#lastname input {
+  width: 100%;
+}
+#username {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#description {
+  width: 100%;
+  flex-direction: column;
+}
+
+#phonenumber {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#phonenumber input {
+  width: 100%;
+}
+
+#dateofbirth {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#dateofbirth input {
+  width: 100%;
+}
+
+#address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#address input {
+  width: 100%;
+}
+
+.edit-info-container input {
+  height: 50px;
+  background-color: rgba(59, 59, 59, 0.599);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+#image input {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 10px;
+}
+
+.edit-info-container input:focus {
+  outline: none;
+}

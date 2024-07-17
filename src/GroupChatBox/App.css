@@ -1,0 +1,45 @@
+body {
+  background-image: url("./assets/main-page-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: keeps the background fixed on scroll */
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-page {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-color: hwb(0 13% 84% / 0.938);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  border-radius: 30px;
+  display: flex;
+}
+
+.right-main-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-left: 1px solid rgb(155, 155, 155);
+}
+
+.right-main-page button {
+  width: 80%;
+  height: 10%;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}

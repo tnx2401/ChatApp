@@ -1,0 +1,104 @@
+.group-container {
+  width: 100%;
+}
+
+.group-close-button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.group-close-button button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-group-mode {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.create-group-mode button {
+  width: 45%;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(62, 62, 62);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.create-group-mode button.isChosen {
+    background-color: white !important;
+    color: black !important;
+  }
+
+
+.create-group-container {
+  padding: 20px;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.user-container img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.user-container input {
+    width: 25px;
+    height: 25px;
+}
+
+.user-container input:focus {
+    outline: none;
+}
+
+.info h4 {
+  margin-left: 20px;
+}
+
+#chatgroupName {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(33, 26, 26);
+}
+
+#chatgroupName:focus {
+  outline: none;
+}
+
+.create-group-btn-function {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.create-group-btn-function button{
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(45, 80, 156);
+    cursor: pointer;
+}

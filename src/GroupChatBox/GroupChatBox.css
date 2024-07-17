@@ -1,0 +1,146 @@
+.group-chat {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.group-top-chat {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.172);
+}
+
+.group-top-chat img {
+  width: 80px;
+  border-radius: 50px;
+}
+
+.group-top-chat-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-top-chat-info h3 {
+  margin-left: 20px;
+}
+
+.group-top-chat button {
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(0, 255, 255, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.group-middle-chat {
+  height: 80%;
+  width: 100%;
+  overflow: auto;
+}
+
+.group-bottom-chat {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.group-bottom-chat input {
+  width: 79%;
+  height: 60%;
+  background-color: rgba(95, 101, 112, 0.388);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.group-bottom-chat button {
+  font-size: 20px;
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.group-bottom-chat input:focus {
+  border: none;
+  outline: none;
+}
+
+#heart {
+  color: red;
+}
+
+.group-messages {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.group-each-messages {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.group-each-messages img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.group-messages-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-sender {
+  background-color: rgb(65, 65, 220);
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  clear: both;
+  margin-left: 5px;
+}
+
+.group-receiver {
+  background-color: rgb(119, 119, 119);
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  clear: both;
+  margin-left: 5px;
+}
+
+.group-sender-message {
+  align-self: flex-start;
+  flex-direction: row;
+}
+
+.group-receiver-message {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.heart-message {
+  background-color: rgb(255, 192, 203);
+}
+
+.is_deleted_notify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
