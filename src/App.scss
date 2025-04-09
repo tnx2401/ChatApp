@@ -1,0 +1,17 @@
+body {
+  background: url("../d671f220-3eaf-4dea-95c7-7e84f4204d5e.webp") no-repeat
+    center center/cover;
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-screen {
+  padding: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+}

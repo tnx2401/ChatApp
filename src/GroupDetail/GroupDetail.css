@@ -1,0 +1,128 @@
+.group-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 95%;
+}
+
+.group-detail-container h2 {
+  margin-bottom: 10px;
+}
+
+.group-detail-container img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.group-function {
+  width: 100%;
+  height: 65%;
+}
+
+.individual-group-function {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.individual-group-function h4 {
+  margin-left: 20px;
+}
+
+.individual-group-function h3 {
+  margin-right: 20px;
+}
+
+.individual-group-function:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.group-detail-buttons {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.group-detail-buttons button {
+  width: 90%;
+  height: 30%;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* members*/
+
+.members-container {
+  width: 100%;
+}
+
+.members-container>button {
+  float: right;
+  cursor: pointer;
+}
+
+.individual-member-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.member-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.member-info h4 {
+  color: rgba(255, 255, 255, 0.603);
+  margin-left: 30px;
+}
+
+.members-container-buttons {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.members-container-buttons button {
+  padding: 7px;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-add-member {
+  background-color: green;
+}
+
+#btn-delete-member {
+  background-color: red;
+}
+
+#btn-member-close {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+/*  */

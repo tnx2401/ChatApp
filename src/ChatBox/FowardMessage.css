@@ -1,0 +1,49 @@
+.foward-container {
+  width: 100%;
+}
+
+.foward-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foward-title button {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.user-foward {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.user-foward-info {
+  display: flex;
+}
+
+.user-foward-info img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.user-foward button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  color: white;
+}
+
+.user-foward button:hover {
+    background-color: rgb(50, 172, 58);
+}
